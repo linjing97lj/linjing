@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document*/
+ body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,td{
+	margin:0;
+	padding:0;
+    }
+body{
+	font-family:"微软雅黑"，Arial;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+
+/* title */
+.titleType{
+    width: 1518px;
+    margin: 50px auto;
+}
+
+/* mainBody */
+.mainBody{
+    width: 1255px;
+    height: 800px;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+}
+.main-left{
+    width: 285px;
+    height: 800px;
+    background-color: skyblue;
+}
+
+.leftTop{
+    width: 100%;
+    height: 103px;
+    border: 1px solid #b8b8b8;
+}
+.leftTop-one{
+    width: 233px;
+    height: 60px;
+    border-bottom: 1px solid #b8b8b8;
+    margin:0 22px 40px;
+}
+.leftTop-one p{
+    font-size: 23px;
+}
+.leftCont{
+    margin-top: 60px;
+}
+.leftCont-one{
+    width: 100%;
+    height: 405px;
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-right{
+    width: 970px;
+    height: 800px;
+    background-color: yellow;
+}
